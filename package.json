@@ -1,0 +1,12 @@
+{
+  "name": "bitmascot-saucedemo",
+  "version": "1.0.0",
+  "description": "Playwright JS automation for saucedemo.com: login, add to cart, verify, logout.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
